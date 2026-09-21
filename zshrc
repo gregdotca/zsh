@@ -59,7 +59,7 @@ setopt PROMPT_SUBST
 PROMPT='
 %F{#d97b2a}%n %F{#f5e6c0}@ %F{#76c1a8}%m %F{#f5e6c0}in %F{#e8a832}%~ ${vcs_info_msg_0_}
 %F{#f5e6c0}$ZSHUSERPROMPT '
-/
+
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
 typeset -g -A key
