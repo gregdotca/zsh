@@ -47,7 +47,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 autoload -Uz vcs_info
 precmd() { vcs_info }
 # Format the vcs_info_msg_0_ variable
-zstyle ':vcs_info:git:*' formats '%F{white}on %{%F{magenta}%}% %b'
+zstyle ':vcs_info:git:*' formats '%F{#f5e6c0}on %F{#8b6355}%b'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 #PROMPT='%n on ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
